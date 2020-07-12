@@ -6,6 +6,9 @@ git log
 git reset --hard commithash
 git reset --soft commithash
 
+create .gitignore file to ignore all file patterns
+
+
 --- DATABASE CREATION ---
 create database project1;
 show databases;
@@ -17,3 +20,37 @@ insert into person values (1,"sai","satyam");
 insert into person values(2, "praveen"," maddilapalem");
 
 --- INTELLIJ PROJECT CREATION ---
+Select JAVA Enterprise
+--> WEB APPLICATION and Hibernate
+
+File -> Project structure -> 
+1) Problems [Fix all problems]
+2) Artifacts change name to project1
+
+Run -> Edit configurations
+1) Select Tomcat server -> Local
+2) Name -> project1
+3) Problems -> Fix
+4) Configure -> C:/Program Files/Apache/../Tomcat 9.0
+5) URL http://localhost:8080/project1/
+6) Deployment -> Application context /project1
+
+--- DATABSE CONNECTION --- 
+1) create two packages, 
+	a) database
+	b) servlets
+
+2) Persistence tab -> project1 -> generate persistence mapping
+	Choose Data Source (+) -> MySQL
+	a) Connect database and choose database
+	b) Select package database
+	c) Add to session factory : filename hibernate.cfg.xml
+	d) go to cfg.xml -> add username and password
+
+3) Paste mysql-connector-java-8.0.20.jar in lib/
+   -> File -> Project Structure -> Libraries -> (+) Java
+   -> Select file and add mysql
+   -> Fix Problems
+
+4) Copy hibernate util to database folder
+

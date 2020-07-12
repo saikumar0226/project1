@@ -1,0 +1,9 @@
+--- DATABASE CREATION ---
+create database project1;
+show databases;
+
+--- TABLE CREATION ---
+use project1;
+create table person (id int primary key ,name varchar(20) ,address varchar(20));
+insert into person values (1,"sai","satyam");
+insert into person values(2, "praveen"," maddilapalem");

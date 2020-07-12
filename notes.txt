@@ -1,3 +1,11 @@
+--- GIT COMMANDS ---
+git status
+git add .
+git commit -m "commit message"
+git log
+git reset --hard commithash
+git reset --soft commithash
+
 --- DATABASE CREATION ---
 create database project1;
 show databases;
@@ -7,3 +15,5 @@ use project1;
 create table person (id int primary key ,name varchar(20) ,address varchar(20));
 insert into person values (1,"sai","satyam");
 insert into person values(2, "praveen"," maddilapalem");
+
+--- INTELLIJ PROJECT CREATION ---

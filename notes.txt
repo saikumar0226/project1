@@ -54,3 +54,8 @@ Run -> Edit configurations
 
 4) Copy hibernate util to database folder
 
+--- GITHUB NOTES -- 
+1. Create username
+2. Change git config username and email
+3. Creating repository without readme , skip
+2. Add repository to command line.

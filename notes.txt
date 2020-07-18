@@ -54,3 +54,17 @@ Run -> Edit configurations
 
 4) Copy hibernate util to database folder
 
+
+---- GIT ----
+git config --global user.name "saikumar0226"
+git config --global user.email "pakkurthisaikumar97@gmail.com"
+
+
+git config credential.helper store
+git remote add origin https://github.com/saikumar0226/project1.git
+git remote set-url origin https://github.com/saikumar0226/project1.git
+
+git push orign master
+
+
+https://github.com/saikumar0226/project1.git
